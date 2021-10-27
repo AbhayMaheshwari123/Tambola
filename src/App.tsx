@@ -1,9 +1,9 @@
-import Board from './components/board';
+import NumberGen from "./components/number-gen";
 
 const App:React.FC=()=>{
   return (
     <div className="App">
-      <Board/>
+      <NumberGen/>
     </div>
   );
 }
